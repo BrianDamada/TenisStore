@@ -7,6 +7,7 @@ import Card from "./components/Card/Card";
 import { useState } from "react";
 import ProdutoSelecionado from "./components/ProdutoSelecionado";
 import Logo from "./components/Logo";
+import VideoEasterEgg from "./components/VideoEsterEgg/VideoEasterEgg";
 
 function App() {
   const produtos = [
@@ -78,6 +79,7 @@ function App() {
 
   return (
     <>
+      <VideoEasterEgg activationSequence="ghost" videoSrc="/video.mp4" />
       <Header title="Jordan Shoes" desconto="10" />
       <Banner />
       <div>
