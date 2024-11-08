@@ -92,15 +92,29 @@ function App() {
       <footer className="bg-slate-950 flex justify-center items-center flex-col p-10">
         <div className="flex flex-col text-center text-slate-50">
           <p className="text-slate-50">
-            Site Desenvolvido em React.js e Vite por <a className="text-sky-500 font-black underline" href="https://www.instagram.com/brian_damada/">Brian Damada</a>
+            Site Desenvolvido em React.js e Vite por{" "}
+            <a
+              className="text-sky-500 font-black underline"
+              href="https://www.instagram.com/brian_damada/"
+            >
+              Brian Damada
+            </a>
           </p>
           <p>
-            OBS: esse site é ficticio e não deve ser levado como uma obra oficial da marca Nike, ou que tenha alguma relação com o Jordan
+            OBS: esse site é ficticio e não deve ser levado como uma obra
+            oficial da marca Nike, ou que tenha alguma relação com o Jordan{" "}
+            <br />
           </p>
         </div>
         <div className="w-96 p-3">
           <Logo fill="#fff" />
         </div>
+        <a
+          className="text-sky-500 font-black underline"
+          href="https://github.com/BrianDamada/TenisStore"
+        >
+          REPOSITÓRIO
+        </a>
       </footer>
     </>
   );
