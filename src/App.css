@@ -1,0 +1,9 @@
+body{
+    font-family: 'Montserrat' serif;
+}
+
+.lateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
